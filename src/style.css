@@ -7,6 +7,7 @@ body {
 }
 
 .menu-container {
+	margin-top: 1.5rem;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
@@ -59,8 +60,12 @@ nav {
 }
 
 .contact-container {
-	display: block;
+	display: flex;
+	flex-direction: column;
 	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.5rem;
 }
 
 #phone-email {
