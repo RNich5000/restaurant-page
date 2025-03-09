@@ -22,8 +22,8 @@ body {
 	padding-right: 48px;
 }
 
-.lhs {
-	border-right: 1px solid black;
+.menu-container > :not(:first-child) {
+	border-left: 1px solid black;
 }
 
 .menu-item > p:first-of-type {

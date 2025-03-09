@@ -16,4 +16,4 @@ contactButton.addEventListener("click", () => {
 	loadContactPage();
 });
 
-loadContactPage();
+loadHomePage();

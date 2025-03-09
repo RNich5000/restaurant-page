@@ -13,7 +13,7 @@ export function loadMenuPage() {
 	const menuContainer = document.createElement("div");
 	menuContainer.classList.add("menu-container");
 
-	const lhs = createPanel("Set Menu 1", "lhs");
+	const lhs = createPanel("Set Menu 1");
 	lhs.appendChild(createHeading("Entree"));
 	lhs.appendChild(createMenuItem(consts.bruschetta, consts.bruschettaText));
 	lhs.appendChild(createHeading("Main"));
@@ -21,7 +21,7 @@ export function loadMenuPage() {
 	lhs.appendChild(createHeading("Dessert"));
 	lhs.appendChild(createMenuItem(consts.sd, consts.sdText));
 
-	const rhs = createPanel("Set Menu 2", "rhs");
+	const rhs = createPanel("Set Menu 2");
 	rhs.appendChild(createHeading("Entree"));
 	rhs.appendChild(createMenuItem(consts.yuzu, consts.yuzuText));
 	rhs.appendChild(createHeading("Main"));

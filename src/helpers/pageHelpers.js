@@ -22,9 +22,8 @@ const createMenuItem = (heading, desc) => {
 	return div;
 };
 
-const createPanel = (heading, className) => {
+const createPanel = (heading) => {
 	const section = document.createElement("div");
-	section.classList.add(className);
 	const sectionHeading = document.createElement("h1");
 	sectionHeading.textContent = heading;
 	section.appendChild(sectionHeading);
