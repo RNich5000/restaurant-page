@@ -1,3 +1,5 @@
+import { clearPage } from "../helpers/pageHelpers";
+
 export function loadContactPage() {
-	console.log("Contact page button clicked!");
+	clearPage();
 }
